@@ -37,15 +37,15 @@ aTX
 $Comp
 L Connector_Generic:Conn_01x01 J1
 U 1 1 5CF3BFB4
-P 3400 2000
-F 0 "J1" H 3479 2042 50  0000 L CNN
-F 1 "GND" H 3479 1951 50  0000 L CNN
-F 2 "CPB:Test_Point_THTPad_d2.0mm_Drill1.0mm" H 3400 2000 50  0001 C CNN
-F 3 "~" H 3400 2000 50  0001 C CNN
-	1    3400 2000
+P 3400 1450
+F 0 "J1" H 3479 1492 50  0000 L CNN
+F 1 "GND" H 3479 1401 50  0000 L CNN
+F 2 "CPB:Test_Point_THTPad_d2.0mm_Drill1.0mm" H 3400 1450 50  0001 C CNN
+F 3 "~" H 3400 1450 50  0001 C CNN
+	1    3400 1450
 	1    0    0    -1  
 $EndComp
-Text GLabel 2650 2000 0    50   Input ~ 0
+Text GLabel 2650 1450 0    50   Input ~ 0
 GND
 $Comp
 L Connector_Generic:Conn_01x01 J2
@@ -111,13 +111,6 @@ Wire Wire Line
 	2850 2800 3200 2800
 Wire Wire Line
 	2850 3100 3200 3100
-Wire Wire Line
-	2750 2250 2750 2000
-Wire Wire Line
-	2650 2000 2750 2000
-Connection ~ 2750 2000
-Wire Wire Line
-	2750 2000 3200 2000
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5CF3D210
@@ -140,6 +133,26 @@ F 3 "~" H 4750 1650 50  0001 C CNN
 	1    4750 1650
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:Jumper JP1
+U 1 1 5CF43AE4
+P 2850 1850
+F 0 "JP1" V 2804 1977 50  0000 L CNN
+F 1 "Jumper" V 2895 1977 50  0000 L CNN
+F 2 "CPB:Socket_Strip_Straight_1x02_Oval_Pitch2.54mm" H 2850 1850 50  0001 C CNN
+F 3 "~" H 2850 1850 50  0001 C CNN
+	1    2850 1850
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	2750 2250 3200 2250
+	2650 1450 2850 1450
+Wire Wire Line
+	2850 1450 2850 1550
+Connection ~ 2850 1450
+Wire Wire Line
+	2850 1450 3200 1450
+Wire Wire Line
+	2850 2150 2850 2250
+Wire Wire Line
+	2850 2250 3200 2250
 $EndSCHEMATC
