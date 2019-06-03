@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/home/cpb/src/kicad/AiLight Flasher/AiLight Flasher.sch")
-    (date "Sun 02 Jun 2019 05:02:31 PM EDT")
+    (date "Sun 02 Jun 2019 09:49:37 PM EDT")
     (tool "Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
