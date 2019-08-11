@@ -5,7 +5,7 @@ bulb". It's not the first and probably not the best, but I'm happy with it.
 
 ![Front](Pictures/3D_Front.jpg) ![Back](Pictures/3D_Back.jpg)
 
-![Complete](Pictures/IMG_20190602_203623.jpg)
+![Complete](Pictures/IMG_20190606_125129.jpg)
 
 There are some designs that use pogo pins in 3D-printed "frames".
 [I tried one; didn't like](Pictures/IMG_20190811_100513.jpg).
